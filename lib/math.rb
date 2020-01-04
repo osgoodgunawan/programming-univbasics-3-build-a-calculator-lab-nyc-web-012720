@@ -17,13 +17,19 @@ def division(num1, num2)
 end
 
 def multiplication(num1, num2)
-  multiplu
+  multiply=num1*num2
+  puts multiply
+  multiply
 end
 
 def modulo(num1, num2)
-
+  remainder=num2%num1
+  puts remainder
+  remainder
 end
 
 def square_root(num)
-
+  square=num**num
+  puts square
+  square
 end
