@@ -5,13 +5,13 @@ def addition(num1, num2)
 end
 
 def subtraction(num1, num2)
-  minus=num2-num1
+  minus=num1-num2
   puts minus
   return minus
 end
 
 def division(num1, num2)
-  divide=num2/num1
+  divide=num1/num2
   puts divide
   divide
 end
@@ -23,7 +23,7 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
-  remainder=num2%num1
+  remainder=num1%num2
   puts remainder
   remainder
 end
